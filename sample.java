@@ -2,9 +2,10 @@ package first;
 
 public class sample {
     public static void main(String[]args){
-        int a=10,b=45;
-        int add=a+b;
-        System.out.println("added values:"+add);
+        Sacnner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        System.out.println("added values:"+a+b);
     }
     
 }
